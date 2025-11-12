@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        background-color: white;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px grey;
+        overflow: hidden;
+        text-align: left;
+    }
+    .container img {
+        width: 100%;
+        border-radius: 10px 8px 5px 0;
+        display: block;
+    }
+    h2 {
+        font-size: 18px;
+        margin: 16px 16px 12px 16px;
+    }
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 16px 16px 16px;
+        font-size: 14px;
+    }
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+    .profile img {
+        width: 40px;
+        height: 20px;
+        border-radius: 20%;
+    }
+    .likes-comment {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: gray;
+    }
+    .like {
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <img src="c:\Users\RPL\Downloads\IMG-20251111-WA0005.jpg" alt="social image">
+        <h2>Urban Dreams</h2>
+        <div class="info">
+            <div class="profile">
+                <img src="profile (2).png" alt="Cody Fisher">
+                <p>Cody Fisher</p>
+            </div>
+            <div class="likes-comment">
+                <i class="hgi hgi-stroke hgi-favourite"></i>
+                <div class="like" alt="span">24</div>
+                <i class="hgi hgi-stroke hgi-comment-01"></i>
+                <div class="like" alt="span">5</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
